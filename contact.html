@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span id="start-cover-inactive" onmouseenter="removeFocus(this);"></span>
+        <div id="navbar">
+            <img src="./assets/images/Logo.png" class="logo">
+            <img class="menu-btn" onclick="openMenu();" src="./assets/images/arrow-down.png">
+            <ul class="links">
+                <li><a href="/index.html">ACASĂ</a></li>
+                <li><a href="/services.html">SERVICII</a></li>
+                <li><a href="/subscriptions.html">ABONAMENTE</a></li>
+                <li><a id="active" href="/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="contact">
+            <p class="text1">Pentru <b>intrebări</b>, 
+                <br> <b>probleme</b> sau 
+                <br> 
+                <b>programări</b>
+            </p>
+            <div class="form" onclick="setFocus();">
+                <p>Nume: <input type="text"> <br>
+                    Prenume: <input type="text"> <br>
+                    E-mail: <input type="text"> <br>
+                    Mesaj: <br>
+                    <textarea maxlength="500" rows="10" spellcheck="false"></textarea>
+                </p>
+                <img src="./assets/images/Formular.png" alt="">
+            </div>
+            <p class="text2">Completează acest <br> <b>formular</b>!
+                <br><img src="./assets/images/arrow.png">
+            </p>
+            <div class="socials">
+                <p>(Sau contactează-ne prin <br> următoarele metode)</p>
+                <div class="btns">
+                    <a href="https://www.instagram.com/lawr.ph"><img src="./assets/images/instagram.svg"/></a>
+                    <a href="https://www.facebook.com/laurentiu.laslau1/"><img src="./assets/images/facebook.svg"></a>
+                    <a><img src="./assets/images/phone.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
