@@ -22,10 +22,14 @@
     .text2 img {
         display: none;
     }
+
+    .form {
+        scale: 0.55 !important;
+    }
     
     .form:hover {
         transform: unset !important;
-        scale: 1.2 !important;
+        scale: 1 !important;
     }
 
     .socials {
@@ -190,6 +194,7 @@
 
 .socials p {
     font-size: 0.8rem;
+    margin: 0;
 }
 
 .socials img {

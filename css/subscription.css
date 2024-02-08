@@ -9,22 +9,38 @@
         align-self: center !important;
     }
 
+    #subscriptions a {
+        height: 17rem !important;
+    }
+
     #subscriptions a:nth-of-type(1) {
         grid-row: 2 !important;
         grid-column: 1 !important;
+        transform: none !important;
     }
 
     #subscriptions a:nth-of-type(2) {
         grid-row: 3 !important;
         grid-column: 1 !important;
         rotate: 10deg;
+        transform: none !important;
     }
 
     #subscriptions a:nth-of-type(3) {
         grid-row: 4 !important;
         grid-column: 1 !important;
         rotate: -20deg;
+        transform: none !important;
     }
+
+    .cardOne, .cardTwo, .cardThree {
+        height: 17rem !important;
+    }
+
+    .cardOne:hover, .cardTwo:hover, .cardThree:hover {
+        height: 20rem !important;
+    }
+
 }
 
 .container {
@@ -53,7 +69,7 @@
 }
 
 .cardOne, .cardTwo, .cardThree {
-    height: calc(20rem + 3vh + 3vw);
+    height: calc(20rem);
     border-radius: 2vw;
     transition: all 0.15s ease-in-out;
 }
@@ -88,5 +104,5 @@
 }
 
 .cardOne:hover, .cardTwo:hover, .cardThree:hover {
-    height: calc(24rem + 3vh + 3vw);
+    height: 23rem;
 }
